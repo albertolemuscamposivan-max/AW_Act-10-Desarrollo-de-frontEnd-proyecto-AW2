@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrar Pareja - Citas Románticas</title>
+  <link rel="stylesheet" href="css/miEstilo.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="brand-title">Citas Románticas</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="registrar.html" class="active">Registrar</a></li>
+        <li><a href="planes.html">Planes</a></li>
+        <li><a href="detalles.html">Detalles</a></li>
+        <li><a href="presupuesto.html">Presupuesto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Registrar Pareja</h2>
+      <form id="formPareja">
+        <div class="form-group">
+          <label for="tuNombre">Tu nombre</label>
+          <input type="text" id="tuNombre" placeholder="Ej. Juan">
+        </div>
+        <div class="form-group">
+          <label for="parejaNombre">Nombre de tu pareja</label>
+          <input type="text" id="parejaNombre" placeholder="Ej. María">
+        </div>
+        <div class="form-group">
+          <label for="presupuesto">Presupuesto aproximado ($)</label>
+          <input type="number" id="presupuesto" placeholder="4000">
+        </div>
+        <div style="text-align: center;">
+          <button type="submit" class="btn-primary">Guardar información</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Citas Románticas 
+
+  <script src="js/miScript.js"></script>
+</body>
+</html>
